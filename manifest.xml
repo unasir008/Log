@@ -74,10 +74,6 @@
     <hal format="hidl">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.radio</name>
-        <transport>hwbinder</transport>
         <fqname>@1.2::ISap/slot1</fqname>
         <fqname>@1.2::ISap/slot2</fqname>
         <fqname>@1.4::IRadio/slot1</fqname>
@@ -87,10 +83,6 @@
         <name>android.hardware.radio.config</name>
         <transport>hwbinder</transport>
         <fqname>@1.1::IRadioConfig/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.radio.deprecated</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>android.hardware.sensors</name>
@@ -133,10 +125,6 @@
         <name>vendor.fpsensor.hardware.fpsensorhidlsvc</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IFpsensorHidlSvc/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.mediatek.hardware.atci</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.bluetooth.audio</name>
@@ -185,10 +173,6 @@
         <fqname>@2.6::IPictureQuality/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.videotelephony</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl">
         <name>vendor.samsung.hardware.gnss</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::ISehGnss/default</fqname>
@@ -201,26 +185,14 @@
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio</name>
         <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.radio</name>
-        <transport>hwbinder</transport>
         <fqname>@2.1::ISehRadio/slot1</fqname>
         <fqname>@2.1::ISehRadio/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio.bridge</name>
         <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.radio.bridge</name>
-        <transport>hwbinder</transport>
         <fqname>@2.0::ISehBridge/slot1</fqname>
         <fqname>@2.0::ISehBridge/slot2</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.radio.channel</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.radio.channel</name>
